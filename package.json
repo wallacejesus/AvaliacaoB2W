@@ -1,0 +1,30 @@
+{
+  "name": "br.com.avaliacaob2w",
+  "version": "1.0.0",
+  "description": "Teste para avalia��oo do processo seletivo B2W. API restfull node.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node loader.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallacejesus/AvaliacaoB2W.git"
+  },
+  "keywords": [
+    "API",
+    "starwars"
+  ],
+  "author": "Wallace Jesus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallacejesus/AvaliacaoB2W/issues"
+  },
+  "homepage": "https://github.com/wallacejesus/AvaliacaoB2W#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.22",
+    "node-restful": "^0.2.6",
+    "request": "^2.88.0"
+  }
+}

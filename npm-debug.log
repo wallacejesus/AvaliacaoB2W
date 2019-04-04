@@ -1,0 +1,77 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--ignore-scripts',
+1 verbose cli   '@types/body-parser',
+1 verbose cli   '--save-dev',
+1 verbose cli   '--user-agent=typesInstaller/2.9.2' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.34
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ '@types/body-parser', null ]
+7 verbose cache add name=undefined spec="@types/body-parser" args=["@types/body-parser",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '@types/body-parser',
+8 verbose parsed url   path: '@types/body-parser',
+8 verbose parsed url   href: '@types/body-parser' }
+9 verbose cache add name="" spec="types/body-parser" args=["","types/body-parser"]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'types/body-parser',
+10 verbose parsed url   path: 'types/body-parser',
+10 verbose parsed url   href: 'types/body-parser' }
+11 silly lockFile b0f65d70-types-body-parser types/body-parser
+12 verbose lock types/body-parser C:\Users\wallace\AppData\Roaming\npm-cache\b0f65d70-types-body-parser.lock
+13 info maybeGithub Attempting types/body-parser from git://github.com/types/body-parser
+14 silly lockFile 44c1b28b-git-github-com-types-body-parser git://github.com/types/body-parser
+15 verbose lock git://github.com/types/body-parser C:\Users\wallace\AppData\Roaming\npm-cache\44c1b28b-git-github-com-types-body-parser.lock
+16 verbose addRemoteGit [ 'git://github.com/types/body-parser', 'master' ]
+17 warn `git config --get remote.origin.url` returned wrong result (git://github.com/types/body-parser)
+18 verbose git clone git://github.com/types/body-parser Cloning into bare repository 'C:\Users\wallace\AppData\Roaming\npm-cache\_git-remotes\git-github-com-types-body-parser-44c1b28b'...
+18 verbose git clone git://github.com/types/body-parser fatal: remote error:
+18 verbose git clone git://github.com/types/body-parser   Repository not found.
+19 silly lockFile 44c1b28b-git-github-com-types-body-parser git://github.com/types/body-parser
+20 silly lockFile 44c1b28b-git-github-com-types-body-parser git://github.com/types/body-parser
+21 info maybeGithub Attempting types/body-parser from git+ssh://git@github.com:types/body-parser
+22 silly lockFile 0381cdd5-git-github-com-types-body-parser git@github.com:types/body-parser
+23 verbose lock git@github.com:types/body-parser C:\Users\wallace\AppData\Roaming\npm-cache\0381cdd5-git-github-com-types-body-parser.lock
+24 verbose addRemoteGit [ 'git@github.com:types/body-parser', 'master' ]
+25 warn `git config --get remote.origin.url` returned wrong result (git@github.com:types/body-parser)
+26 error git clone git@github.com:types/body-parser Cloning into bare repository 'C:\Users\wallace\AppData\Roaming\npm-cache\_git-remotes\git-github-com-types-body-parser-0381cdd5'...
+26 error git clone git@github.com:types/body-parser error: cannot spawn ssh: No such file or directory
+26 error git clone git@github.com:types/body-parser fatal: unable to fork
+27 silly lockFile 0381cdd5-git-github-com-types-body-parser git@github.com:types/body-parser
+28 silly lockFile 0381cdd5-git-github-com-types-body-parser git@github.com:types/body-parser
+29 silly lockFile b0f65d70-types-body-parser types/body-parser
+30 silly lockFile b0f65d70-types-body-parser types/body-parser
+31 error addLocal Could not install types/body-parser
+32 error Error: ENOENT, stat 'd:\gitlab\avaliacaob2w\types\body-parser'
+33 error If you need help, you may report this *entire* log,
+33 error including the npm and node versions, at:
+33 error     <http://github.com/npm/npm/issues>
+34 error System Windows_NT 6.1.7601
+35 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--ignore-scripts" "@types/body-parser" "--save-dev" "--user-agent=typesInstaller/2.9.2"
+36 error cwd d:\gitlab\avaliacaob2w
+37 error node -v v0.10.34
+38 error npm -v 1.4.28
+39 error path d:\gitlab\avaliacaob2w\types\body-parser
+40 error code ENOENT
+41 error errno 34
+42 verbose exit [ 34, true ]
