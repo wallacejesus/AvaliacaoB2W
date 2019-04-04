@@ -7,11 +7,15 @@ const router = express.Router();
   const request = require("request");
 function verificarFilmes(req, res,next){
 
-  request.get("https://swapi.co/api/planets/?search="+res.body.nome, (error, response, body) => {
+  request.get("https://swapi.co/api/planets/?search="+req.body.nome, (error, response, body) => {
     if(error) {
         return console.dir(error);
     }
-    console.log(JSON.parse(body));
+    let parametros = (JSON.parse(body));
+    if(parametros.results.length>0)
+      req.body.qtd_filmes=parametros.results[0].films.length;
+    else
+    req.body.qtd_filmes=0;
     next();
   });  
 }  
